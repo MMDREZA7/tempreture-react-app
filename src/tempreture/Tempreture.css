@@ -1,0 +1,70 @@
+.background {
+  background-color: #999;
+  height: 100vh;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.tempContainer {
+  margin-top: 8%;
+  padding: 5px;
+  background-color: #222;
+  border-radius: 80px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+.tempShower {
+  color: #fff;
+  background-color: #333;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: solid 2px black;
+  align-content: center;
+}
+
+.tempCold {
+  transition: all 0.5s linear;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+  background-color: blue;
+  opacity: 50%;
+}
+
+.tempHot {
+  transition: all 0.5s linear;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+  background-color: red;
+  opacity: 50%;
+}
+
+.btRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.bt {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-size: 2rem;
+  font-weight: 500;
+}
